@@ -93,15 +93,19 @@
 
 
 
-<meta name="description" content="喝一天粥，敲一天钟">
-<meta property="og:type" content="website">
-<meta property="og:title" content="Gavin的技术点滴">
-<meta property="og:url" content="http://yoursite.com/index.html">
+<meta name="description" content="#Internet网络层相关协议-IPv4  大家众所周知的互联网协议IP/TCP协议，其中的IP协议就是网络层协议，而TCP协议是传输层协议，由于关于这些协议的文献以及文章在网上有很多，所以本篇文章以及接下来后续的几篇文章只是阐述一些基础理论以供大家了解。  ##本文大纲首先介绍一些基本以外的知识，如这些互联网协议设计者所遵循的十大原则。接下来就是文章的重点内容IP协议中的IPv4协议。话不多说">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Internet网络层相关协议-IPv4">
+<meta property="og:url" content="http://yoursite.com/2017/12/16/Internet网络层相关协议-IPv4/index.html">
 <meta property="og:site_name" content="Gavin的技术点滴">
-<meta property="og:description" content="喝一天粥，敲一天钟">
+<meta property="og:description" content="#Internet网络层相关协议-IPv4  大家众所周知的互联网协议IP/TCP协议，其中的IP协议就是网络层协议，而TCP协议是传输层协议，由于关于这些协议的文献以及文章在网上有很多，所以本篇文章以及接下来后续的几篇文章只是阐述一些基础理论以供大家了解。  ##本文大纲首先介绍一些基本以外的知识，如这些互联网协议设计者所遵循的十大原则。接下来就是文章的重点内容IP协议中的IPv4协议。话不多说">
+<meta property="og:image" content="http://os8zk81ed.bkt.clouddn.com/Internet.png">
+<meta property="og:image" content="http://os8zk81ed.bkt.clouddn.com/IPv4Header.png">
+<meta property="og:updated_time" content="2017-12-16T14:03:07.158Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Gavin的技术点滴">
-<meta name="twitter:description" content="喝一天粥，敲一天钟">
+<meta name="twitter:title" content="Internet网络层相关协议-IPv4">
+<meta name="twitter:description" content="#Internet网络层相关协议-IPv4  大家众所周知的互联网协议IP/TCP协议，其中的IP协议就是网络层协议，而TCP协议是传输层协议，由于关于这些协议的文献以及文章在网上有很多，所以本篇文章以及接下来后续的几篇文章只是阐述一些基础理论以供大家了解。  ##本文大纲首先介绍一些基本以外的知识，如这些互联网协议设计者所遵循的十大原则。接下来就是文章的重点内容IP协议中的IPv4协议。话不多说">
+<meta name="twitter:image" content="http://os8zk81ed.bkt.clouddn.com/Internet.png">
 
 
 
@@ -129,13 +133,13 @@
 
 
 
-  <link rel="canonical" href="http://yoursite.com/"/>
+  <link rel="canonical" href="http://yoursite.com/2017/12/16/Internet网络层相关协议-IPv4/"/>
 
 
 
 
 
-  <title>Gavin的技术点滴</title>
+  <title>Internet网络层相关协议-IPv4 | Gavin的技术点滴</title>
   
 
 
@@ -160,9 +164,7 @@
     
   
 
-  <div class="container sidebar-position-left 
-   page-home 
- ">
+  <div class="container sidebar-position-left page-post-detail ">
     <div class="headband"></div>
 
     <header id="header" class="header" itemscope itemtype="http://schema.org/WPHeader">
@@ -245,9 +247,9 @@
         <div class="content-wrap">
           <div id="content" class="content">
             
-  <section id="posts" class="posts-expand">
+
+  <div id="posts" class="posts-expand">
     
-      
 
   
 
@@ -273,9 +275,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/12/16/Internet网络层相关协议-IPv4/" itemprop="url">Internet网络层相关协议-IPv4</a></h1>
+          <h1 class="post-title" itemprop="name headline">Internet网络层相关协议-IPv4</h1>
         
 
         <div class="post-meta">
@@ -322,9 +322,7 @@
       
 
       
-        
-          
-            <p>#Internet网络层相关协议-IPv4</p>
+        <p>#Internet网络层相关协议-IPv4</p>
 <blockquote>
 <p>大家众所周知的互联网协议IP/TCP协议，其中的IP协议就是网络层协议，而TCP协议是传输层协议，由于关于这些协议的文献以及文章在网上有很多，所以本篇文章以及接下来后续的几篇文章只是阐述一些基础理论以供大家了解。</p>
 </blockquote>
@@ -389,20 +387,27 @@
 </table>
 <p>如今，IP选项已失宠，许多路由器忽略它们或者不能有效的处理它们，它们作为一种按键案例被搁置了，也就是说，它们只是得到了部分支持，但很少被使用。</p>
 
-          
+      
+    </div>
+
+    <div>
+      
         
+
       
     </div>
 
     <div>
       
-    </div>
+        
 
-    <div>
       
     </div>
 
     <div>
+      
+        
+
       
     </div>
 
@@ -410,178 +415,38 @@
       
 
       
-
-      
-
       
       
-        <div class="post-eof"></div>
+
       
-    </footer>
-  </article>
-
-
-    
-      
-
-  
-
-  
-  
-  
-
-  <article class="post post-type-normal " itemscope itemtype="http://schema.org/Article">
-    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2017/07/03/AVFoundation编程指南概要/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="name" content="Gavin">
-      <meta itemprop="description" content="">
-      <meta itemprop="image" content="/images/avatar.gif">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Gavin的技术点滴">
-    </span>
-
-    
-      <header class="post-header">
-
-        
-        
-          <h1 class="post-title" itemprop="name headline">
-                
-                <a class="post-title-link" href="/2017/07/03/AVFoundation编程指南概要/" itemprop="url">AVFoundation编程指南概要</a></h1>
-        
-
-        <div class="post-meta">
-          <span class="post-time">
+        <div class="post-nav">
+          <div class="post-nav-next post-nav-item">
             
-              <span class="post-meta-item-icon">
-                <i class="fa fa-calendar-o"></i>
-              </span>
-              
-                <span class="post-meta-item-text">发表于</span>
-              
-              <time title="创建于" itemprop="dateCreated datePublished" datetime="2017-07-03T15:19:24+08:00">
-                2017-07-03
-              </time>
+              <a href="/2017/07/03/AVFoundation编程指南概要/" rel="next" title="AVFoundation编程指南概要">
+                <i class="fa fa-chevron-left"></i> AVFoundation编程指南概要
+              </a>
             
+          </div>
 
+          <span class="post-nav-divider"></span>
+
+          <div class="post-nav-prev post-nav-item">
             
-
-            
-          </span>
-
-          
-
-          
-            
-          
-
-          
-          
-
-          
-
-          
-
-          
-
+          </div>
         </div>
-      </header>
-    
-
-    <div class="post-body" itemprop="articleBody">
-
-      
       
 
       
-        
-          
-            <h1 id="AVFoundation简介"><a href="#AVFoundation简介" class="headerlink" title="AVFoundation简介"></a>AVFoundation简介</h1><p>AVFoundation是为数几个可以用来制作以及播放基于时间的可视化媒体数据的框架。 它提供了一个OC接口能够让你更加细致的处理基于时间的可视化媒体数据。举个例子，它可以用来检测，制作，编辑以及重编码媒体文件。你可以在实时捕捉和播放的时候获得输入流以及进行一些额外的操作。图一显示了AVFoundation在iOS端的框架位置。图二展示了其在OS X端的框架位置。</p>
-<p>图一<br><img src="http://os8zk81ed.bkt.clouddn.com/frameworksBlockDiagram_2x.png" alt="image"></p>
-<p>图二<br><img src="http://os8zk81ed.bkt.clouddn.com/frameworksBlockDiagramOSX_2x.png" alt="image"></p>
-<p> 你通常可以运用最高的抽象层来完成你以下所要做的操作</p>
-<ol>
-<li>如果你仅仅想播放影片，请用AVKit框架。</li>
-<li>在iOS端，如果你想最小限度对录像进行控制，请用UIKit框架(UIImagePickerController)</li>
-</ol>
-<p>注意，当你运用AVFoundation的时候，一些基本数据结构包括时间相关的数据结构以及一些用来捕获和描述媒体文件的抽象对象都是声明在Core Media framework。          </p>
-<h2 id="概要"><a href="#概要" class="headerlink" title="概要"></a>概要</h2><p>在AVFoundation框架中，主要有两个方面，一个是和视频有关的接口，一个是和音频有关的接口。一些以前的音频相关类提供了一些基础的处理音频的方式。而这些信息可以通过<strong>多媒体编程指南</strong>来获取。</p>
-<ul>
-<li>为了播放声音文件你可以运用<a href="https://developer.apple.com/documentation/avfoundation/avaudioplayer" target="_blank" rel="external">AVAudioPlayer</a></li>
-<li>为了录制音频你可以运用<a href="https://developer.apple.com/documentation/avfoundation/avaudiorecorder" target="_blank" rel="external">AVAudioRecorder</a></li>
-</ul>
-<p>你也可以通过查看<a href="https://developer.apple.com/library/content/documentation/Audio/Conceptual/AudioSessionProgrammingGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40007875" target="_blank" rel="external">Audio Session Programming Guide</a>来运用<a href="https://developer.apple.com/documentation/avfoundation/avaudiosession" target="_blank" rel="external">AVAudioSession</a>配置程序中的音频的行为。</p>
-<h3 id="展示和操作媒体"><a href="#展示和操作媒体" class="headerlink" title="展示和操作媒体"></a>展示和操作媒体</h3><p>在AVFoundation框架中展示媒体的最基本的类是AVAsset。框架设计也是以这个类为基础的。了解它的结构组成有助于帮助你更好的理解AVFoundation框架是如何运行的。一个AVAsset实例是一个集合展示，它包括了一个或者多个媒体数据的的组合(音频轨和视频轨)。 它提供了这个组合从总体上来看的一些属性信息如标题，时长，大小等等。AVAsset 并不是一个具体的包含这些信息的类，它是一个超类，通常从媒体路径来创建它的子类或者创建一个新的媒体组合。</p>
-<p>每一个包含在资源(asset)中的单独媒体片段都是一个独立的类型被称作轨道(track)。通俗点说，一个轨道代表音频组成部分另一个代表视频组成部分。在一个复杂的组合中可能含有多种重复的音轨和视频轨，资源还包括元数据。<br>在AVFoundation框架中一个重要的概念就是初始化一个资源或者轨道并不意味着它立即就可以使用。它还要求了一些时间来计算这个资源或者轨道的时长(如一个MP3文件可能并不包含这些概要信息),你不能通过阻塞当前线程来计算这些值，而是通过block异步的获取这些信息。</p>
-<h3 id="播放"><a href="#播放" class="headerlink" title="播放"></a>播放</h3><p>你可以运用框架通过多种复杂的方式来管理一个资源的播放。为了完成这一点，框架将资源本身分成了几种状态。例如你可以用不同的方式提取一段资源相同的时间的两段不同的片段来播放。资源的状态呈现是由一个叫做<em>play item</em> 对象来管理的。每一个资源的轨道状态是由<em>player item track</em>对象管理的。运用<em>play item</em> 对象和<em>player item trac</em>对象你可以设置展示部分的大小，设置在播放期间音频的参数以及视频组成部分的配置甚至可以禁止资源某个部分展示。</p>
-<p>你可以用一个player对象来播放 player items.一个player指的是 Core Animation 层。最终你可以用一个播放队列来安排一系列 player对象。</p>
-<h3 id="读写以及重编码资源"><a href="#读写以及重编码资源" class="headerlink" title="读写以及重编码资源"></a>读写以及重编码资源</h3><p>框架允许你通过不同的方式来创建一个资源新的表现形式。同时你也可以重编码一段存在的资源。在iOS4.1之后你可以操作资源的内容然后将操作结果以一个新的资源的存储。</p>
-<p>你可以用 <em>exprt session</em> 来用一个预先设置好的配置来重编码一个资源。在iOS4.1之后 如果你想控制更多的转化信息，那么可以运用asset reader 和 asset writer 对象来转变一个资源。运用这些对象你可以做到以下的事情。如选择那段轨道作为输出对象。设置你自己的输出格式以及在转变过程中修改资源。</p>
-<p>如果你想展示一段音频的波形视图，你可以用一个 asset writer 对象来读取资源的音频轨道。</p>
-<h3 id="缩略图"><a href="#缩略图" class="headerlink" title="缩略图"></a>缩略图</h3><p>你可以通过你想生成缩略图的asset来初始化一个 <a href="https://developer.apple.com/documentation/avfoundation/avassetimagegenerator" target="_blank" rel="external">AVAssetImageGenerator</a>实例来生成正在播放的视频的缩略图。 <em>AVAssetImageGenerator</em>可以通过视频轨道来生成图片。</p>
-<h3 id="编辑"><a href="#编辑" class="headerlink" title="编辑"></a>编辑</h3><p>框架运用 <em>compositions</em> 从一些媒体片段(一个或多个视频轨道和音频轨道)来创建新的资源. 你可以用可变的<em>composition</em> 来添加，移除轨道或者调解他们的临时顺序。你同时也可以调节音频轨道音量以及音量的缓慢变化；设置视频轨道的透明度以及渐变。一个composition 是以媒体片段的方式存储在内存中的。当你想导出的时候，你可以运用 <em>export session</em>。</p>
-<p>你还可以运用 <em>asset writer</em> 对象从一段样本缓冲或者静态图片来创建资源。</p>
-<h3 id="静态图片以及视频媒体捕捉"><a href="#静态图片以及视频媒体捕捉" class="headerlink" title="静态图片以及视频媒体捕捉"></a>静态图片以及视频媒体捕捉</h3><p>capture session 是用来管理从摄像头以及麦克风捕捉数据的管理类。一个 capture session是用来协调从输入设备得到的数据流和输出到外部文件的输出流。即使会话在运行中你也可以为一个单独的会话(session)配置不同的输入和输出。你可以给session 发送消息来控制数据流的开始和关闭。</p>
-<p>另外，你可以创建<em>preview layer</em>实例对象来展示用户正在录制的内容。</p>
-<h2 id="在AVFoundation中的并发程序设计"><a href="#在AVFoundation中的并发程序设计" class="headerlink" title="在AVFoundation中的并发程序设计"></a>在AVFoundation中的并发程序设计</h2><p>在AVFoundation框架中的回调包括 blocks,key-value observers,和notification，这些处理并不需要特殊的线程和队列，AVFoundation 自身在内部已经处理了在线程和队列索要做的操作了。<br>使用通知和线程通常有以下两种方式：</p>
-<ul>
-<li>UI部分的通知发生在主线程。</li>
-<li>类方法或实例方法要求你创建或者指定通知即将返回的线程。</li>
-</ul>
-<p>除了这两种方式(其中包括文档中所说明的部分)。你不能假设一个通知即将在任何其他线程返回。</p>
-<p>如果你正在写一个多线程程序。你可以用NSTread的方法:<a href="https://developer.apple.com/documentation/foundation/nsthread/1408455-ismainthread" target="_blank" rel="external">isMainThread</a> 或者 <em>[[NSThread currentThread] isEqual:&lt;#A stored thread reference#&gt;]</em> 来测试调用的线程是不是你希望你的操作运行的线程。你可用<a href="https://developer.apple.com/documentation/objectivec/nsobject/1414900-performselector" target="_blank" rel="external">performSelectorOnMainThread:withObject:waitUntilDone:</a> 和<a href="https://developer.apple.com/documentation/objectivec/nsobject/1417922-perform" target="_blank" rel="external">performSelector:onThread:withObject:waitUntilDone:modes:</a>直接发送消息给相关线程，你要么用<a href="https://developer.apple.com/documentation/dispatch/1453057-dispatch_async" target="_blank" rel="external">dispatch_async</a>来“跳跃”你的block运行在指定线程。要么UI任务指定主线程或者执行并发操作的队列。想要得到更多并发操作的信息，可以参考<a href="https://developer.apple.com/library/content/documentation/General/Conceptual/ConcurrencyProgrammingGuide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40008091" target="_blank" rel="external">Concurrency Programming Guide</a>，如果想要了解更多关于block的信息，可以查看 <a href="https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/Blocks/Articles/00_Introduction.html#//apple_ref/doc/uid/TP40007502" target="_blank" rel="external">Blocks Programming Topics.</a> 这个示例代码<a href="https://developer.apple.com/library/content/samplecode/AVCam/Introduction/Intro.html#//apple_ref/doc/uid/DTS40010112" target="_blank" rel="external">AVCam-iOS: Using AVFoundation to Capture Images and Movies</a> 运用到所有框架的知识，并且还示范了框架中所遇到的线程和队列用法。</p>
-<h1 id="要求"><a href="#要求" class="headerlink" title="要求"></a>要求</h1><p>AVFoundation 是一个高级Cocoa框架，为了能够更好的掌握，你必须知道一下的知识点</p>
-<ul>
-<li>全面的了解基本的Cocoa 开发工具和技术</li>
-<li>基本了解blocks</li>
-<li>基本了解key-value coding 和 key-value observing </li>
-<li>对Core Animation(查看<a href="https://developer.apple.com/library/content/documentation/Cocoa/Conceptual/CoreAnimation_guide/Introduction/Introduction.html#//apple_ref/doc/uid/TP40004514" target="_blank" rel="external">Core Animation Programming Guide</a>) 有个基本了解对学习<strong>播放</strong>很有帮助。想对<strong>播放</strong>有更基础的了解，可以查看<a href="https://developer.apple.com/documentation/avkit" target="_blank" rel="external">AVKit Framework Reference</a>。</li>
-</ul>
-<h1 id="实例代码"><a href="#实例代码" class="headerlink" title="实例代码"></a>实例代码</h1><p>这些示例代码中有两个可以让你更好的理解和实现摄像头捕捉功能。</p>
-<p><a href="https://developer.apple.com/library/content/samplecode/AVCam/Introduction/Intro.html#//apple_ref/doc/uid/DTS40010112" target="_blank" rel="external">AVCam-iOS: Using AVFoundation to Capture Images and Movies</a> 对摄像头功能的实现是一个比较全面的示例代码，它注释比较全面并且涵盖了主要的功能点。</p>
-<p><a href="https://developer.apple.com/library/content/samplecode/AVCamManual/Introduction/Intro.html#//apple_ref/doc/uid/TP40014578" target="_blank" rel="external">AVCamManual: Extending AVCam to Use Manual Capture API</a> 是一个导向性的程序代码示例。<br>他通过摄像头控制来完成摄像头的主要功能。他同样也很全面。对于创建多控制摄像头的程序提供了一个范例的作用.</p>
-<p><a href="https://developer.apple.com/library/content/samplecode/RosyWriter/Introduction/Intro.html#//apple_ref/doc/uid/DTS40011110" target="_blank" rel="external">RosyWriter</a> 示范了实时帧过程以及如何更好对视频内容增加滤镜效果。这是一个基本开发要求。这个实例对此作了很好的阐述。</p>
-<p><a href="https://developer.apple.com/library/content/samplecode/AVLocationPlayer/Introduction/Intro.html#//apple_ref/doc/uid/TP40014495" target="_blank" rel="external">AVLocationPlayer: Using AVFoundation Metadata Reading APIs</a> 示范了如何使用元数据(metadata)API.</p>
-
-          
-        
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <div>
-      
-    </div>
-
-    <footer class="post-footer">
-      
-
-      
-
-      
-
-      
-      
-        <div class="post-eof"></div>
       
     </footer>
   </article>
 
 
-    
-  </section>
 
-  
+    <div class="post-spread">
+      
+    </div>
+  </div>
 
 
           </div>
@@ -589,6 +454,10 @@
 
 
           
+  <div class="comments" id="comments">
+    
+  </div>
+
 
         </div>
         
@@ -766,10 +635,10 @@
   
 
   
-    <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
+  <script type="text/javascript" src="/js/src/scrollspy.js?v=5.1.1"></script>
 <script type="text/javascript" src="/js/src/post-details.js?v=5.1.1"></script>
 
-  
+
 
   
 
